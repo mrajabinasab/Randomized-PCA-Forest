@@ -2,14 +2,6 @@
 
 This project implements Randomized PCA Forest algorithm. The script allows you to perform approximate k-nearest neighbors search as presented in the paper, "Randomized PCA Forest For Approximate k-Nearest Neighbors Search".
 
-## Table of Contents
-- Installation
-- Usage
-- Arguments
-- Example
-- Contributing
-- License
-
 ## Installation
 
 To install the required dependencies, run:
