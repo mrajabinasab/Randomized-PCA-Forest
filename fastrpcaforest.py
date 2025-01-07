@@ -220,7 +220,7 @@ def fitforest(train, myforest, forestsize, npc, ec, verbos):
 def evaluate(data, knntable, k, p, l, f, t, v):
     if t > f:
         t = f
-    rpca = PCA(n_components = args.principalcomponents, svd_solver = 'randomized')
+    rpca = PCA(n_components = p, svd_solver = 'randomized')
     rpca.fit(data)
     projdata = rpca.transform(data)
     forests = [[] for _ in range(t)]
