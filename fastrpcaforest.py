@@ -230,7 +230,7 @@ def evaluate(data, knntable, k, p, l, f, t, v):
     threads = []
     for i in range(t):
         size = base_size + (1 if i < remainder else 0)  
-        thread = threading.Thread(target=fitforest, args=(data, forests[i], size, p, l, v))
+        thread = threading.Thread(target=fitforest, args=(projdata, forests[i], size, p, l, v))
         threads.append(thread)
         thread.start()
     for thread in threads:
