@@ -65,5 +65,5 @@ year = {2024},
 issn = {0957-4174},
 doi = {https://doi.org/10.1016/j.eswa.2024.126254},
 url = {https://www.sciencedirect.com/science/article/pii/S095741742403121X},
-author = {Muhammad Rajabinasab and Farhad Pakdaman and Arthur Zimek and Moncef Gabbouj},
+author = {Muhammad Rajabinasab and Farhad Pakdaman and Arthur Zimek and Moncef Gabbouj}}
 ```
