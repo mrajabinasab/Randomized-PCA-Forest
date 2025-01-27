@@ -52,19 +52,7 @@ evaluate(data, knntable, k, p, l, f, t, v)
 
 ## Note
 
-Due to a compatibility issue with one of the libraries, the results presented in the paper are slightly lower than the actual results produced by the method. After resolving this issue, we observed improvements in both the proposed method and its fast implementation. The convergence rate is now higher, especially for the FAST5P implementation. You can view the updated results in the UpdatedResults.pdf file.
-
-```bash
-python rpcaforest.py -d ./data.csv -k 5 -p 2 -l 15 -f 50 -t 8 -r 2000 -v 1
-```
-
-In the output, you can see the recall and the average discrepancy ratio.
-
-You can also use evaluate function to easily write your own experiemnts:
-
-```python
-evaluate(data, knntable, k, p, l, f, t, v)
-```
+Due to a compatibility issue with one of the libraries, the results presented in the paper are slightly lower than the actual results produced by the method. After resolving this issue, we observed improvements in both the proposed method and its fast implementation. The convergence rate is now higher, especially for the FAST5P implementation. You can view the updated results in the [Updated_Results.pdf](https://github.com/mrajabinasab/Interdataset-Similarity-Metrics/blob/main/Feature_Selection_Evaluation.ipynb](https://github.com/mrajabinasab/Randomized-PCA-Forest/blob/main/Updated_Results.pdf) file.
 
 ## Citation
 
