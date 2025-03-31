@@ -16,7 +16,7 @@ class RandomizedPCATree:
         self.rightidx = None
         self.data = data
         self.dataidx = dataidx
-        self.size = 0
+        self.size = data.shape[0]
         self.npc = npc
         self.split = None
         self.leftchild = None
@@ -66,7 +66,6 @@ class RandomizedPCATree:
                 rhc += 1
         self.leftchild = RandomizedPCATree(self.left, self.leftidx, self.npc, self.endcriteria)
         self.rightchild = RandomizedPCATree(self.right, self.rightidx, self.npc, self.endcriteria)
-        self.size = self.dataidx.shape[0]
         if self.size > self.endcriteria:
             self.dataidx = None
         self.data = None
