@@ -57,7 +57,7 @@ Due to a compatibility issue with one of the libraries, the results presented in
 ## Citation
 
 
-If you use our metrics in your research, please cite the original paper:
+If you use our method in your research, please cite the original paper:
 
 
 ```
